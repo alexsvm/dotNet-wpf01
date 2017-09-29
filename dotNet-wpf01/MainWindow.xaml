@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:dotNet_wpf01"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="MainWindow" Height="359.13" Width="624.42" GotFocus="Window_GotFocus" LostFocus="Window_LostFocus">
     <Grid>
-        
+        <TextBox x:Name="textBox" HorizontalAlignment="Left" Height="25" Margin="10,90,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="245"/>
+
     </Grid>
 </Window>

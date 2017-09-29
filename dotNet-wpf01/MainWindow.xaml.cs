@@ -24,5 +24,15 @@ namespace dotNet_wpf01
         {
             InitializeComponent();
         }
+
+        private void Window_GotFocus(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "Window GotFocus";
+        }
+
+        private void Window_LostFocus(object sender, RoutedEventArgs e)
+        {
+            textBox.Text = "Window LostFocus";
+        }
     }
 }
